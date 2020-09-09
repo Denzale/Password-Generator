@@ -32,7 +32,6 @@ function generatePassword() {
 
   ///prompts
   let userLength = prompt("Between 8 and 128 how many charaters do you want?")
-
   let userLowercase = confirm("Do you want lowercases letters?")
   let userUpperCase = confirm("Do You want uppercase letters?")
   let usernumbers = confirm("Do you want numbers?")
